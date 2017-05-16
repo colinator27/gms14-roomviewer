@@ -1,0 +1,5 @@
+http://undertale.rawr.ws/unpacking
+http://undertale.rawr.ws/decompilation
+https://gitlab.com/snippets/14944
+https://gitlab.com/snippets/14943
+https://github.com/kvanberendonck/acolyte/wiki/Bytecode
