@@ -16,5 +16,22 @@ After opening either project, follow these steps:
 - After the file is added as an included file, you should change its name back to what it was previously.
 - Run the project!
 
+## What does this project actually do?
+This project, ironically written in GML, decompiles/unpacks Gamemaker: Studio 1.4 games and then opens up a room viewer. The room viewer allows you to move the view in the room, change rooms, and toggle visibility of layers (objects, tiles, and backgrounds). This program makes it much easier to view the rooms (maybe secret ones...?) of a Gamemaker game. Most other decompilers and unpackers only spit out a whole lot of human-uninterpretable numbers and strings for rooms. However, this, being made in Gamemaker, renders the unpacked rooms' contents to the game window.
+
 ## Any issues?
 If you run into any issues with running the project, please create an issue (here on GitHub). It would be very helpful if you included the log/console output, as well as any possible "fatal error" messages.
+
+If it seems to take a while for the game to appear, check the console for anything going on. Most of the time, it's just that the game is large and the program is taking a while to unpack it.
+
+## References
+Here are the main pages I looked at to write this, and if you're interested in writing your own unpacker or decompiler, check them out!
+http://undertale.rawr.ws/unpacking
+http://undertale.rawr.ws/decompilation
+https://gitlab.com/snippets/14944
+https://gitlab.com/snippets/14943
+https://github.com/kvanberendonck/acolyte/wiki/Bytecode
+
+*If any of these happen to go down, I've made sure that they are backed up on the Wayback Machine (archive.org).*
+
+You should keep in mind that some of these pages reference information on another, so sometimes you may need to switch between pages to fully understand a concept.
