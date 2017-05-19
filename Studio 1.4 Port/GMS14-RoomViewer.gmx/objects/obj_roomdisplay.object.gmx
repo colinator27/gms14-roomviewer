@@ -330,7 +330,7 @@ var texH = l.texpages[l.texpageIds[? texOffsets[0]], 3];
 var roX = l.texpages[l.texpageIds[? texOffsets[0]], 4];
 var roY = l.texpages[l.texpageIds[? texOffsets[0]], 5];
 
-draw_sprite_part_ext(l.spritesheets[page],0,texX,texY,texW,texH,activeObjects[i, 0]+roX,activeObjects[i, 1]+roY,activeObjects[i, 5],activeObjects[i, 6],c_white,1);
+draw_sprite_part_ext(l.spritesheets[page],0,texX,texY,texW,texH,activeObjects[i, 0]+roX-l.sprites[l.objects[activeObjects[i, 2], 1], 9],activeObjects[i, 1]+roY-l.sprites[l.objects[activeObjects[i, 2], 1], 10],activeObjects[i, 5],activeObjects[i, 6],c_white,1);
 }
 
 // Stop drawing to surface
